@@ -209,7 +209,8 @@ async def set_key_metadata(wallet_handle: int,
                            verkey: str,
                            metadata: str) -> None:
     """
-    Creates keys pair and stores in the wallet.
+    For instance, give the key, a name or any other metadata. A related information which doesn't have an
+    impact on the functionality. 
 
     :param wallet_handle: Wallet handle (created by open_wallet).
     :param verkey: the key (verkey, key id) to store metadata.
